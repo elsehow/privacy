@@ -22,7 +22,7 @@ classifiers that should be downloaded following the steps below.
 * Python, version &ge; 3.5
 * jax
 * jaxlib
-* objax (https://github.com/google/objax)
+* [objax](https://github.com/google/objax)
 * PIL
 * sklearn
 
@@ -32,8 +32,8 @@ classifiers that should be downloaded following the steps below.
 To reproduce our results and run the attack, each of the files should be run in turn.
 
 0. Download the necessary dependency files:
-- (encryption.npy)[https://www.dropbox.com/sh/8zdsr1sjftia4of/AAA-60TOjGKtGEZrRmbawwqGa?dl=0] and (labels.npy)[https://www.dropbox.com/sh/8zdsr1sjftia4of/AAA-60TOjGKtGEZrRmbawwqGa?dl=0] from the (InstaHide Challenge)[https://github.com/Hazelsuko07/InstaHide_Challenge]
-- The (saved models)[https://drive.google.com/file/d/1YfKzGRfnnzKfUKpLjIRXRto8iD4FdwGw/view?usp=sharing] used to run the attack
+- [encryption.npy](https://www.dropbox.com/sh/8zdsr1sjftia4of/AAA-60TOjGKtGEZrRmbawwqGa?dl=0) and [labels.npy](https://www.dropbox.com/sh/8zdsr1sjftia4of/AAA-60TOjGKtGEZrRmbawwqGa?dl=0) from the [InstaHide Challenge](https://github.com/Hazelsuko07/InstaHide_Challenge)
+- The [saved models](https://drive.google.com/file/d/1YfKzGRfnnzKfUKpLjIRXRto8iD4FdwGw/view?usp=sharing) used to run the attack
 - Set up all the requirements as above
 
 1. Run `step_1_create_graph.py`. Produce the similarity graph to pair together encoded images that share an original image.
